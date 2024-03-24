@@ -3,6 +3,23 @@
 
 /** Ionic CSS Variables **/
 :root {
+   --ion-font-family:'Roboto', sans-serif;
+   --ion-text-color: white;
+   --font-size: 1rem;
+   --line-height: 1.168;
+   --ion-background-color:radial-gradient(circle, cyan, rgb(232, 160, 232), rgb(247, 247, 77));
+   .ion-padding-top {
+    --padding-top: 0px;
+   }
+   ion-item{
+    --background: transparent;
+  }
+  ion-button {
+    --background:transparent;
+  }
+  ion-toolbar {
+    --background:transparent;
+  }
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
